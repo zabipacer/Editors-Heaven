@@ -1,0 +1,16 @@
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+    .ContentSection h1 {
+      font-size: 40px; /* Or your desired pixel value */
+    }
+    /* Add similar rules for other elements */
+  }* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    overflow-x: hidden; /* This will prevent horizontal scrolling */
+  }
+  
