@@ -9,7 +9,7 @@ const faqData = [
   },
   {
     question: "How much does the bundle cost?",
-    answer: "The bundle costs 599RS.",
+    answer: "The bundle costs 599PKRS.",
   },
   {
     question: "Is this a one-time payment?",
@@ -22,7 +22,7 @@ const faqData = [
   },
   {
     question: "What software is included in the bundle?",
-    answer: "The bundle includes [list of software included].",
+    answer: "The bundle includes all the Adobe softwares mentioned above.",
   },
   {
     question: "Can I use these assets for commercial projects?",
@@ -35,7 +35,7 @@ const faqData = [
   },
   {
     question: "Are there any bonuses included?",
-    answer: "Yes, [list of bonuses included].",
+    answer: "Yes, We have mentioned above all the extra softwares and bonuses you recieve.",
   },
   {
     question: "What if I have trouble accessing the assets?",
@@ -49,7 +49,7 @@ const faqData = [
   {
     question: "How can I contact your customer support?",
     answer:
-      "You can contact us via email at [your email address] or through our website chat.",
+      "You can contact us via email at zuhaib.zul@gmail.com or through our website chat.",
   },
 ];
 
