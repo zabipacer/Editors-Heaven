@@ -13,12 +13,14 @@ import ForYouImage from "./ForYouImage";
 import Grid from "./grid";
 import PrivacyPolicy from "./PrivacyPolicy";
 import Reviews from "./Reviews";
+import MetaPixel from "./utils/meta/metaPixel";
 
 export default function App() {
   return (
     <>
       {/* Wrapper */}
       <div className="relative text-white h-full w-full flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-16">
+       <MetaPixel/>
         {/* Background Section with Clipped Shape */}
         <div
           className="absolute inset-0 bg-[url('/background1.jpg')] bg-cover bg-center"

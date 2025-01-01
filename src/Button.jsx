@@ -1,10 +1,22 @@
-import React from 'react';
+import React from "react";
 
 const Button = () => {
   const handleButtonClick = () => {
+    // Meta Pixel Event Tracking
+    if (typeof window.fbq === "function") {
+      window.fbq("track", "WhatsAppButtonClick", {
+        content_name: "WhatsApp Offer Button",
+        value: 599,
+        currency: "PKR",
+      });
+    }
+
+    // WhatsApp Redirect
     const whatsappNumber = "923288768783"; // Replace with your WhatsApp number
     const message = "Hello, I'm interested in your offer!"; // Optional default message
-    const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}`;
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(
+      message
+    )}`;
     window.open(whatsappURL, "_blank");
   };
 
