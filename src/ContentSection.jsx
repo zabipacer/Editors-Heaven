@@ -5,7 +5,7 @@ const ContentSection = () => {
   return (
     <div className="z-10 px-4 sm:px-6 lg:px-8">
       <p className="text-center font-semibold pt-6 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[23px] mx-auto max-w-3xl">
-        Are you a passionate Video Editor? Or aspiring to become one? Then you're at the right place. Introducing:
+        Are you a passionate Video Editor from Pakistan? Or aspiring to become one? Then you're at the right place. Introducing:
       </p>
 
       <h1 className="text-center font-extrabold font-sans mt-2 leading-[1.1] text-[33px] sm:text-[45px] lg:text-[85px] mx-auto w-full max-w-[1200px]">
