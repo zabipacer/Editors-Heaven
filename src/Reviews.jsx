@@ -2,7 +2,7 @@ import React from 'react';
 
 const Reviews = () => {
   const images = [
-    'r1.webp','r2.webp','r3.webp','r4.webp','r5.webp','r6.webp',
+    'R1.webp','R2.webp','R3.webp','R4.webp','R5.webp','R6.webp',
   ];
 
   return (
