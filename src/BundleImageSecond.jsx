@@ -4,7 +4,7 @@ const BundleImageSecond = () => {
   return (
     <div className="z-20 mt-10 max-w-4xl">
     <img
-      src="/bundle.png"
+      src="/bundle.webp"
       alt="Video Editing Bundle Preview"
       className="object-cover w-full"
     />
