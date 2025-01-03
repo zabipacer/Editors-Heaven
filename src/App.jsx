@@ -23,7 +23,7 @@ export default function App() {
        <MetaPixel/>
         {/* Background Section with Clipped Shape */}
         <div
-          className="absolute inset-0 bg-[url('/background1.jpg')] bg-cover bg-center"
+          className="absolute inset-0 bg-[url('/background1.webp')] bg-cover bg-center"
           style={{
             clipPath: 'polygon(0 0, 100% 0, 100% 85%, 0 85%)',
             zIndex: -1,
