@@ -35,7 +35,7 @@ export default function Grid() {
   ];
 
   return (
-    <div className="p-10 w-screen bg-gray-900 bg-[url('/background1.jpg')] bg-cover bg-center text-white">
+    <div className="p-10 w-screen bg-gray-900 bg-[url('/background1.webp')] bg-cover bg-center text-white">
       <h1 className="text-3xl font-bold text-center mb-8">
         Everything You'll Get Inside:
       </h1>
