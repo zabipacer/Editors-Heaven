@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import AccessBox from "./Access";
 import BundleImage from "./BundleImage";
 import BundleImageSecond from "./BundleImageSecond";
@@ -16,6 +17,15 @@ import Reviews from "./Reviews";
 import MetaPixel from "./utils/meta/metaPixel";
 
 export default function App() {
+
+  useEffect(()=>{
+    const preloadLink = document.createElement('link');
+    preloadLink.rel = 'preload';
+    preloadLink.as = 'image';
+    preloadLink.href = '/background1.webp'; // Path to your image
+    document.head.appendChild(preloadLink);
+
+  },[])
   return (
     <>
       {/* Wrapper */}
