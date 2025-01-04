@@ -3,7 +3,7 @@ export default function Grid() {
     "8000+ Transitions",
     "Adobe CC Collection",
     "Camera Rig Overlays",
-    "Glitch Effects",
+    "Glitch Effects ",
     "Video Editing Course",
     "Youtube Essential Pack",
     "2000+ FX Presets",
