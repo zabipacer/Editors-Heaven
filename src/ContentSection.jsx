@@ -1,9 +1,11 @@
 import React from 'react'
 import Button from './Button'
+import CountdownTimer from './Timer';
 
 const ContentSection = () => {
   return (
     <div className="z-10 px-4 sm:px-6 lg:px-8">
+       <CountdownTimer/>
       <p className="text-center font-semibold pt-6 text-[16px] sm:text-[18px] md:text-[20px] lg:text-[23px] mx-auto max-w-3xl">
         Are you a passionate Video Editor from Pakistan? Or aspiring to become one? Then you're at the right place. Introducing:
       </p>
