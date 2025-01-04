@@ -18,9 +18,10 @@ const ContentSection = () => {
         Get over 70 GB of video editing assets, including transitions, overlays, fonts, LUTs, FX, premade templates, and premium software like Premiere Pro, After Effects, and six additional Adobe products. On top of that, get a full-fledged video editing course to get you started.
       </p>
 
-      <p className="text-center text-[13px] sm:text-[16px] lg:text-[18px] font-semibold bg-gray-100 mt-10 mx-auto text-black rounded-lg w-[300px] sm:w-[380px] lg:w-[900px]">
-        *Lifetime Access - One-time payment - Instant Access - 100% Risk Free*
-      </p>
+    <div className="bg-yellow-100 text-black text-center font-bold rounded-lg py-2 px-4 mt-6 mx-auto w-[clamp(300px, 60%, 900px)]">
+        <span className="text-red-500">Limited-Time Offer:</span> ₨599 Only! 
+        <span className="line-through text-gray-500 ml-2">₨3000+</span> <span className="text-green-500">Save 80%!</span>
+      </div>
 
       <Button />
     </div>
