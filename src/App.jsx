@@ -15,7 +15,7 @@ import Grid from "./grid";
 import PrivacyPolicy from "./PrivacyPolicy";
 import Reviews from "./Reviews";
 import MetaPixel from "./utils/meta/metaPixel";
-import VideoSection from "./Videos";
+import VideoSection from "./Video";
 
 export default function App() {
 
