@@ -15,6 +15,7 @@ import Grid from "./grid";
 import PrivacyPolicy from "./PrivacyPolicy";
 import Reviews from "./Reviews";
 import MetaPixel from "./utils/meta/metaPixel";
+import VideoSection from "./Videos";
 
 export default function App() {
 
@@ -59,7 +60,7 @@ export default function App() {
           CREATE STUNNING VIDEO PROJECTS THAT{' '}
           <span className="text-red-500">10X YOUR AUDIENCE RETENTION</span>
         </p>
-
+ <VideoSection/>
         {/* Other Components */}
         <Compatible />
         <EspeciallyDesigned />
