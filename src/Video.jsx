@@ -1,16 +1,18 @@
-import React from 'react';
+import React from "react";
 
 const VideoSection = () => {
   return (
-    <section className="relative w-full h-screen bg-gray-900 overflow-hidden">
-      <video
-        className="w-full h-full object-cover"
-        controls
-     // Add a thumbnail image for the video (optional)
-      >
-        <source src="digital product.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+    <section className="relative w-full bg-gray-900">
+      <div className="relative h-80 w-full lg:w-full lg:h-screen  overflow-hidden">
+        <video
+          className="absolute top-0 left-0 w-full h-full object-cover"
+          controls
+         // Optional: Add a thumbnail for better UX
+        >
+          <source src="digital product.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </section>
   );
 };
