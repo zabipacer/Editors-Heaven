@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Grid() {
   const items = [
     "8000+ Transitions",
