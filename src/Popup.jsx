@@ -58,9 +58,34 @@ const Popup = () => {
       className={`fixed bottom-4 right-4 z-50 bg-gradient-to-r from-blue-500 to-purple-600 text-white p-4 shadow-lg rounded-lg transition-transform transform ${
         visible ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
       }`}
-      style={{ minWidth: "280px", maxWidth: "90%", transition: "all 0.3s ease-in-out" }}
+      style={{
+        minWidth: "250px",
+        maxWidth: "90%",
+        transition: "all 0.3s ease-in-out",
+      }}
     >
       <p className="font-semibold text-center">{message}</p>
+      <style jsx>{`
+        div {
+          font-size: 1rem; /* Default font size */
+        }
+
+        @media (max-width: 768px) {
+          div {
+            min-width: 200px; /* Smaller width for phones */
+            padding: 8px; /* Smaller padding */
+            font-size: 0.9rem; /* Slightly smaller font size */
+          }
+        }
+
+        @media (max-width: 480px) {
+          div {
+            min-width: 180px; /* Even smaller for very small screens */
+            padding: 6px; /* Reduced padding */
+            font-size: 0.85rem; /* Reduced font size */
+          }
+        }
+      `}</style>
     </div>
   );
 };
