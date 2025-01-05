@@ -35,23 +35,23 @@ const CountdownTimer = () => {
   const { hours, minutes, sec } = formatTime(timeRemaining);
 
   return (
-    <div className="mx-auto text-center mt-5 p-4 bg-gray-900 text-white rounded-lg shadow-lg max-w-md">
+    <div className="mx-auto text-center mt-5 p-4 bg-gray-900 text-white rounded-lg relative z-20 shadow-lg max-w-md">
       <p className="text-lg font-semibold mb-4">Hurry Up! Sale Ends In:</p>
-      <div className="flex justify-center gap-4">
+      <div className="flex justify-center gap-6">
         {/* Hours Box */}
-        <div className="flex flex-col items-center bg-red-600 text-white rounded-lg p-3 shadow-md w-20">
-          <span className="text-3xl font-bold">{String(hours).padStart(2, "0")}</span>
-          <span className="text-sm">Hours</span>
+        <div className="flex flex-col items-center bg-red-600 text-white rounded-lg p-3 shadow-md w-16 sm:w-24">
+          <span className="text-2xl sm:text-3xl font-bold">{String(hours).padStart(2, "0")}</span>
+          <span className="text-xs sm:text-sm">Hours</span>
         </div>
         {/* Minutes Box */}
-        <div className="flex flex-col items-center bg-red-600 text-white rounded-lg p-3 shadow-md w-20">
-          <span className="text-3xl font-bold">{String(minutes).padStart(2, "0")}</span>
-          <span className="text-sm">Minutes</span>
+        <div className="flex flex-col items-center bg-red-600 text-white rounded-lg p-3 shadow-md w-16 sm:w-24">
+          <span className="text-2xl sm:text-3xl font-bold">{String(minutes).padStart(2, "0")}</span>
+          <span className="text-xs sm:text-sm">Minutes</span>
         </div>
         {/* Seconds Box */}
-        <div className="flex flex-col items-center bg-red-600 text-white rounded-lg p-3 shadow-md w-20">
-          <span className="text-3xl font-bold">{String(sec).padStart(2, "0")}</span>
-          <span className="text-sm">Seconds</span>
+        <div className="flex flex-col items-center bg-red-600 text-white rounded-lg p-3 shadow-md w-16 sm:w-24">
+          <span className="text-2xl sm:text-3xl font-bold">{String(sec).padStart(2, "0")}</span>
+          <span className="text-xs sm:text-sm">Seconds</span>
         </div>
       </div>
       <p className="mt-4 text-sm">Grab your offer before it's gone!</p>
