@@ -2,9 +2,8 @@ import React from 'react';
 
 const Reviews = () => {
   const images = [
-    'RR1.webp','RR2.webp','RR3.webp','RR4.webp','RR5.webp','RR6.webp',
+    'S1.jpeg', 'S2.jpeg', 'S3.jpeg', 'S4.jpeg', 'S5.jpeg', 'S6.jpeg',
   ];
-
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-14">
       {images.map((image, index) => (
