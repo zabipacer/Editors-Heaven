@@ -35,7 +35,7 @@ const CountdownTimer = () => {
   const { hours, minutes, sec } = formatTime(timeRemaining);
 
   return (
-    <div className="mx-auto text-center mt-5 p-4 bg-gray-900 text-white rounded-lg relative z-20 shadow-lg max-w-md">
+    <div className="mx-auto text-center mt-5 p-4 bg-gray-900 text-white rounded-lg relative z-20 shadow-lg lg:max-w-md max-w-sm">
       <p className="text-lg font-semibold mb-4">Hurry Up! Sale Ends In:</p>
       <div className="flex justify-center gap-6">
         {/* Hours Box */}
