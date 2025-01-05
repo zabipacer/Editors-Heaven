@@ -1,5 +1,3 @@
-import Button from "./Button";
-
 export default function Grid() {
   const items = [
     "8000+ Transitions",
@@ -35,8 +33,8 @@ export default function Grid() {
   ];
 
   return (
-    <div className="p-12 w-screen bg-gray-900 bg-[url('/background1.webp')] bg-cover bg-center text-white">
-      <h1 className="text-4xl font-bold text-center mb-10 text-shadow-lg">
+    <div className="p-10 w-screen bg-gray-900 bg-[url('/background1.webp')] bg-cover bg-center text-white">
+      <h1 className="text-3xl font-bold text-center mb-8">
         Everything You'll Get Inside:
       </h1>
       
@@ -44,21 +42,19 @@ export default function Grid() {
         {items.map((item, index) => (
           <div
             key={index}
-            className="bg-gray-800 rounded-lg shadow-lg transition-transform duration-300 hover:scale-105 transform flex flex-col items-center p-6"
+            className="bg-gray-800 rounded-lg shadow-lg lg:p-4  flex flex-col items-center"
           >
             <img
-              src={`/Item ${index + 1}.webp`}
+              src={/Item ${index + 1}.webp}
               alt={item}
-              className="w-full h-56 object-cover rounded-lg mb-4 hover:opacity-90 transition-opacity"
+              className="w-full lg:h-56 object-cover rounded-lg mb-4"
             />
-            <p className="text-center text-md font-semibold text-gray-300">{item}</p>
+            <p className="text-center text-sm font-semibold">{item}</p>
           </div>
         ))}
       </div>
 
-      <div className="mt-12 text-center">
-        <Button />
-      </div>
+      <Button/>
     </div>
   );
 }
