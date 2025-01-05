@@ -45,7 +45,8 @@ export default function Grid() {
             className="bg-gray-800 rounded-lg shadow-lg lg:p-4  flex flex-col items-center"
           >
             <img
-              src={/Item ${index + 1}.webp}
+            src={`/Item ${index + 1}.webp`}
+
               alt={item}
               className="w-full lg:h-56 object-cover rounded-lg mb-4"
             />
