@@ -1,7 +1,15 @@
 import React, { useEffect, useState } from "react";
 
 const CountdownTimer = () => {
-  const [timeRemaining, setTimeRemaining] = useState(2 * 24 * 60 * 60); // 2 days in seconds
+  // Generate random initial time
+  const getRandomTime = () => {
+    const randomHours = Math.floor(Math.random() * 24); // 0-23 hours
+    const randomMinutes = Math.floor(Math.random() * 60); // 0-59 minutes
+    const randomSeconds = Math.floor(Math.random() * 60); // 0-59 seconds
+    return randomHours * 3600 + randomMinutes * 60 + randomSeconds;
+  };
+
+  const [timeRemaining, setTimeRemaining] = useState(getRandomTime);
 
   useEffect(() => {
     const interval = setInterval(() => {
