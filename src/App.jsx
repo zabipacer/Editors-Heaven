@@ -84,7 +84,7 @@ export default function App() {
         href="https://api.whatsapp.com/send?phone=923288768783" // Replace 1234567890 with your WhatsApp number
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-4 z-40 right-4 bg-green-500 text-white rounded-full p-3 shadow-lg hover:bg-green-600 transition-all"
+        className="fixed bottom-4 z-10 right-4 bg-green-500 text-white rounded-full p-3 shadow-lg hover:bg-green-600 transition-all"
         title="Chat with us on WhatsApp"
       >
         <svg
